@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-image: url("extras/background.png");
+}
+
+h2{
+    background-color: #fff;
+    padding: 10px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 32px;
+}
+
+#tabuleiro {
+    height: 550px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #790000;
+    border: 24px solid #dd0000;
+    border-radius: 32px;
+}
+
+.carta {
+    height: 128px;
+    width: 90px;
+    margin:5px;
+    border-radius: 10px;
+}
